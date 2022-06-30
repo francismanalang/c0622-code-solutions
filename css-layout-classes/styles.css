@@ -1,7 +1,10 @@
 .container {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+}
+
+.column-full {
+  flex-basis: 100%;
 }
 
 .row {
@@ -9,7 +12,7 @@
 }
 
 .column-one-third {
-  width: calc(100% / 3);
+  flex-basis: calc(100% / 3);
 }
 
 .column-one-fourth {
@@ -17,7 +20,7 @@
 }
 
 .column-two-third {
-  width: 75%;
+  flex-basis: 75%;
 }
 
 .character {
