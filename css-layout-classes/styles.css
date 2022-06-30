@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column-link-one-third {
+  width: 33.33%;
+}
+
+.column-super-one-third {
+  width: 33.33%;
+  padding-left: 3.5%;
+}
+
+.column-yoshi-one-third {
+  width: 33.33%;
+}
+
+.column-kirby-one-fourth {
+  width: 25%;
+}
+
+.column-fox-one-fourth {
+  width: 25%;
+}
+
+.column-pikachu-one-fourth {
+  width: 25%;
+}
+
+.column-ness-one-fourth {
+  width: 25%;
+}
+
+.column-text-two-thirds {
+  width: 75%;
+  padding-right: 6%;
+}
+
+.column-donkey-one-third {
+  width: 25%;
+}
+
+.column-mario-one-third {
+  width: 33.33%;
+  padding-right: 5%;
+}
+
+.column-mario-text-two-third {
+  width: 75%;
+}
