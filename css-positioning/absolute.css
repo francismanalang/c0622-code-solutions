@@ -14,7 +14,8 @@
 .emoji {
   font-size: 3rem;
   position: absolute;
-  left: 240px;
+  width: 75%;
+  right: 10px;
   top: 20px;/* your code here */
 }
 
@@ -28,14 +29,14 @@
   text-transform: uppercase;
   position: absolute;
   width: 300px;
-  top: 165px;/* your code here */
+  height: 75%;
+  bottom: 20px;/* your code here */
 }
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
-  top: 0;
-  bottom: 637px;
-  left: 7px;
-  right: 710px;/* your code here */
+  width: 29.7%;
+  height: 31.8%;
+  left: 7px;/* your code here */
 }
