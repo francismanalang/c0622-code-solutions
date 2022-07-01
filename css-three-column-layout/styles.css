@@ -1,7 +1,6 @@
 .container {
   max-width: 800px;
   margin: auto;
-  background-color: #1996da;
 }
 
 .row {
@@ -10,12 +9,10 @@
 
 .column-full {
   flex-basis: 100%;
-  text-align: center;
 }
 
 .column-one-third {
   flex-basis: calc(100% / 3);
-  text-align: center;
 }
 
 .image {
@@ -52,4 +49,12 @@ p {
   border: none;
   height: 6em;
   width: 6em;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.background-color {
+  background-color: #1996da;
 }
