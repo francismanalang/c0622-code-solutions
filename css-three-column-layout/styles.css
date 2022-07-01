@@ -1,0 +1,55 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #1996da;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+}
+
+.image {
+  width: 65%;
+}
+
+h2,
+h3,
+p {
+  font-family: lato, sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 22px;
+  padding-top: 15px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  color: #bfd2dd;
+  font-size: 10px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.button {
+  border-radius: 6em;
+  border: none;
+  height: 6em;
+  width: 6em;
+}
