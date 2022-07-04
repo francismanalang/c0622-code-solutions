@@ -11,6 +11,10 @@
   flex-basis: 100%;
 }
 
+.column-fourth-fifth {
+  flex-basis: calc(100% * 4 /5);
+}
+
 .column-half {
   flex-basis: 50%;
 }
@@ -19,17 +23,20 @@
   flex-basis: 25%;
 }
 
+.column-one-fifth {
+  flex-basis: calc(100% * 1 / 5);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
 .p-bottom {
-  font-family: Avenir, sans-serif;
   font-size: 12px;
   color: #737373;
   display: inline;
   padding: 5%;
   font-weight: 500;
-}
-
-.p-font {
-  font-family: Avenir, sans-serif;
 }
 
 .background-color {
@@ -51,10 +58,17 @@
 .button {
   border: none;
   color: #bac2cd;
-  font-family: Avenir, sans-serif;
   width: 120px;
   height: 35px;
   border-radius: 0.3em;
+}
+
+.button1 {
+  border: none;
+  color: #bac2cd;
+  border-radius: 0.3em;
+  width: 100px;
+  height: 30px;
 }
 
 .button-padding {
@@ -75,36 +89,71 @@
   padding-left: 20px;
 }
 
+.clinicians-padding-top {
+  padding-top: 20px;
+}
+
+.clinicians-padding-bottom {
+  padding-bottom: 50px;
+}
+
+.font-1 {
+  font-family: Avenir, sans-serif;
+}
+
+.font-2 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
 .white-font {
   color: white;
 }
 
 .canvas-text {
   font-size: 10px;
-  font-family: Avenir, sans-serif;
   width: 48%;
   padding-left: 60px;
 }
 
 .canvas {
-  font-family: "Tiempos Headline", sans-serif;
   font-weight: lighter;
   padding-left: 60px;
   padding-top: 45px;
 }
 
+.canvas1 {
+  color: #284564;
+  font-weight: lighter;
+  padding-left: 50px;
+}
+
 .height-canvas {
-  height: 300px;
+  height: 280px;
+}
+
+.height-clinicians {
+  height: 130px;
+}
+
+.height-ready {
+  height: 115px;
 }
 
 .company-product {
-  font-family: Avenir, sans-serif;
   font-size: 12px;
   padding-top: 65px;
 }
 
+.locations-font-size {
+  font-size: 12px;
+}
+
+.clinicians-width {
+  width: 45%;
+  margin: auto;
+}
+
 .h2-text {
-  font-family: "Tiempos Headline", sans-serif;
   font-size: 18px;
   padding-left: 60px;
 }
@@ -114,10 +163,61 @@
   padding-left: 60px;
 }
 
-.height-ready {
-  height: 115px;
-}
-
 .schedule-padding-top {
   padding-top: 18px;
+}
+
+.image-absolute {
+  position: absolute;
+  filter: brightness(70%);
+}
+
+.h1-absolute {
+  width: 40%;
+  font-size: 25px;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.p-absolute {
+  font-size: 10px;
+  width: 40%;
+  line-height: 18px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+.button-absolute {
+  position: absolute;
+  bottom: 115px;
+  left: 100px;
+}
+
+.image {
+  max-width: 750px;
+  height: 375px;
+  padding-left: 50px;
+}
+
+.column-relative {
+  position: relative;
+}
+
+.column-height {
+  height: 425px;
+}
+
+.list {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+
+li {
+  font-size: 10px;
+  color: #a0a0a0;
+  padding: 20px;
+  list-style: none;
 }
