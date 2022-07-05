@@ -117,14 +117,15 @@
 }
 
 .canvas {
-  font-weight: lighter;
+  width: 37%;
   padding-left: 60px;
-  padding-top: 45px;
+  padding-top: 75px;
+  padding-bottom: 20px;
 }
 
 .canvas1 {
-  color: #284564;
-  font-weight: lighter;
+  width: 88%;
+  padding-top: 30px;
   padding-left: 50px;
 }
 
