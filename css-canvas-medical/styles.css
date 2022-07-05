@@ -1,0 +1,242 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fourth-fifth {
+  flex-basis: calc(100% * 4 /5);
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100% * 1 / 5);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.background-color {
+  background-color: #fafafa;
+}
+
+.background-color2 {
+  background-color: #525351;
+}
+
+.button-background {
+  background-color: #284564;
+}
+
+.p-color {
+  color: #737373;
+}
+
+.p-bottom {
+  font-size: 12px;
+  color: #737373;
+  display: inline;
+  padding: 5%;
+  font-weight: 500;
+}
+
+.button {
+  border: none;
+  color: #bac2cd;
+  width: 120px;
+  height: 35px;
+  border-radius: 0.3em;
+}
+
+.button1 {
+  border: none;
+  font-size: 9px;
+  color: #bac2cd;
+  border-radius: 0.3em;
+  width: 65px;
+  height: 28px;
+}
+
+.button-padding {
+  padding-top: 30px;
+  padding-left: 225px;
+}
+
+.height-bottom {
+  height: 90px;
+  padding-top: 35px;
+}
+
+.padding-right-bottom {
+  padding-right: 0;
+}
+
+.padding-left-bottom {
+  padding-left: 20px;
+}
+
+.clinicians-padding-top {
+  padding-top: 20px;
+}
+
+.clinicians-padding-bottom {
+  padding-bottom: 50px;
+}
+
+.font-1 {
+  font-family: Avenir, sans-serif;
+}
+
+.font-2 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.white-font {
+  color: white;
+}
+
+.canvas-text {
+  font-size: 10px;
+  width: 48%;
+  padding-left: 60px;
+}
+
+.canvas {
+  width: 37%;
+  padding-left: 60px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+
+.canvas1 {
+  width: 88%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.height-canvas {
+  height: 280px;
+}
+
+.height-clinicians {
+  height: 130px;
+}
+
+.height-ready {
+  height: 115px;
+}
+
+.company-product {
+  font-size: 12px;
+  padding-top: 65px;
+}
+
+.locations-font-size {
+  font-size: 12px;
+}
+
+.clinicians-width {
+  width: 45%;
+  margin: auto;
+}
+
+.h2-text {
+  font-size: 18px;
+  padding-left: 60px;
+}
+
+.schedule-text {
+  font-size: 10px;
+  padding-left: 60px;
+}
+
+.schedule-padding-top {
+  padding-top: 18px;
+}
+
+.image-absolute {
+  position: absolute;
+  filter: brightness(70%);
+}
+
+.h1-absolute {
+  width: 40%;
+  font-size: 25px;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.p-absolute {
+  font-size: 10px;
+  width: 40%;
+  line-height: 18px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+.button-absolute {
+  position: absolute;
+  bottom: 115px;
+  left: 100px;
+}
+
+.image {
+  max-width: 750px;
+  height: 375px;
+  padding-left: 50px;
+}
+
+.column-relative {
+  position: relative;
+}
+
+.column-height {
+  height: 425px;
+}
+
+.nav-bar-height {
+  height: 65px;
+}
+
+.list {
+  display: flex;
+  padding-left: 205px;
+}
+
+.li-style {
+  font-size: 10px;
+  color: #a0a0a0;
+  padding: 15px;
+  list-style: none;
+}
+
+.button-style {
+  list-style: none;
+  padding-top: 9px;
+}
+
+.line {
+  height: 0.1px;
+  background: #dcdcdc;
+}
+
+.line-padding {
+  padding-bottom: 40px;
+}
