@@ -1,6 +1,6 @@
 var orderHistory = [
-  [
-    {
+  {
+    orderDetails: {
       orderPlaced: 'August 4, 2020',
       total: '$34.00',
       shipTo: 'JS Masher',
@@ -12,7 +12,7 @@ var orderHistory = [
         'Invoice'
       ]
     },
-    {
+    products: {
       deliveredDate: 'Aug 8, 2020',
       deliveryUpdate: '',
       product: [
@@ -24,9 +24,9 @@ var orderHistory = [
         }
       ]
     }
-  ],
-  [
-    {
+  },
+  {
+    orderDetails: {
       orderPlaced: 'July 19, 2020',
       total: '$44.53',
       shipTo: 'JS Masher',
@@ -38,7 +38,7 @@ var orderHistory = [
         'Invoice'
       ]
     },
-    {
+    products: {
       deliveredDate: 'Jul 20,2020',
       deliveryUpdate: 'Your package was delivered. It was handed directly to a resident.',
       product: [
@@ -50,9 +50,9 @@ var orderHistory = [
         }
       ]
     }
-  ],
-  [
-    {
+  },
+  {
+    orderDetails: {
       orderPlaced: 'July 4, 2020',
       total: '$17.22',
       shipTo: 'JS Masher',
@@ -64,7 +64,7 @@ var orderHistory = [
         'Invoice'
       ]
     },
-    {
+    products: {
       deliveredDate: 'Jul 7, 2020',
       deliveryUpdate: 'Your package was delivered. It was handed directly to a resident.',
       product: [
@@ -76,9 +76,9 @@ var orderHistory = [
         }
       ]
     }
-  ],
-  [
-    {
+  },
+  {
+    orderDetails: {
       orderPlaced: 'July 3, 2020',
       total: '$138.98',
       shipTo: 'JS Masher',
@@ -90,7 +90,7 @@ var orderHistory = [
         'Invoice'
       ]
     },
-    {
+    products: {
       deliveredDate: 'Jul 5, 2020',
       deliveryUpdate: '',
       product: [
@@ -108,5 +108,5 @@ var orderHistory = [
         }
       ]
     }
-  ]
+  }
 ];
