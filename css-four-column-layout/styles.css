@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.font {
+  font-family: Barlow, sans-serif;
+}
+
+.background-color {
+  background-color: #f7f8fa;
+}
+
+.phone-image {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.icon-image {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+p {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
