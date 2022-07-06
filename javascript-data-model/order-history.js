@@ -14,7 +14,7 @@ var orderHistory = [
     },
     products: {
       deliveredDate: 'Aug 8, 2020',
-      deliveryUpdate: '',
+      deliveryUpdate: null,
       items: [
         {
           title: 'JavaScript for impatient programmers',
@@ -70,7 +70,7 @@ var orderHistory = [
       items: [
         {
           title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for Wii U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
-          additionalInfo: '',
+          additionalInfo: null,
           returnWindow: 'Return window closed on Aug 5, 2020',
           price: 15.98
         }
@@ -92,11 +92,11 @@ var orderHistory = [
     },
     items: {
       deliveredDate: 'Jul 5, 2020',
-      deliveryUpdate: '',
+      deliveryUpdate: null,
       product: [
         {
           title: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-          additionalInfo: '',
+          additionalInfo: null,
           returnWindow: 'Return window closed on Aug 4, 2020',
           price: 94.95
         },
