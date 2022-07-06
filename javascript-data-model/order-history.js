@@ -15,7 +15,7 @@ var orderHistory = [
     products: {
       deliveredDate: 'Aug 8, 2020',
       deliveryUpdate: '',
-      product: [
+      items: [
         {
           title: 'JavaScript for impatient programmers',
           additionalInfo: 'Rauschmayer, Dr. Axel',
@@ -41,7 +41,7 @@ var orderHistory = [
     products: {
       deliveredDate: 'Jul 20,2020',
       deliveryUpdate: 'Your package was delivered. It was handed directly to a resident.',
-      product: [
+      items: [
         {
           title: 'The Timeless Way of Building',
           additionalInfo: 'Alexander, Christopher',
@@ -67,7 +67,7 @@ var orderHistory = [
     products: {
       deliveredDate: 'Jul 7, 2020',
       deliveryUpdate: 'Your package was delivered. It was handed directly to a resident.',
-      product: [
+      items: [
         {
           title: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for Wii U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
           additionalInfo: '',
@@ -90,7 +90,7 @@ var orderHistory = [
         'Invoice'
       ]
     },
-    products: {
+    items: {
       deliveredDate: 'Jul 5, 2020',
       deliveryUpdate: '',
       product: [
