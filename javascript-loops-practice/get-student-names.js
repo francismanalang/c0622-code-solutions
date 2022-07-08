@@ -8,5 +8,6 @@ function getStudentNames(students) {
   for (var i = 0; i < students.length; i++) {
     var names = students[i].name;
     studentNames.push(names);
-  } return studentNames;
+  }
+  return studentNames;
 }

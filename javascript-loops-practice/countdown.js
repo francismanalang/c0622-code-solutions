@@ -5,5 +5,6 @@ function countdown(number) {
   while (i <= number) {
     counting.push(number);
     number--;
-  } return counting;
+  }
+  return counting;
 }

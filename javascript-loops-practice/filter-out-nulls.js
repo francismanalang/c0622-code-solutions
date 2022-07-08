@@ -11,5 +11,6 @@ function filterOutNulls(values) {
     if (values[i] !== null) {
       noNulls.push(values[i]);
     }
-  } return noNulls;
+  }
+  return noNulls;
 }

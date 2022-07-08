@@ -10,5 +10,6 @@ function filterOutStrings(values) {
     if (typeof values[i] === 'number') {
       noStringsArray.push(values[i]);
     }
-  } return noStringsArray;
+  }
+  return noStringsArray;
 }
