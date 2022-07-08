@@ -1,0 +1,51 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.font {
+  font-family: "DM Sans", sans-serif;
+}
+
+.image {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.size-retail {
+  color: #d6d6d6;
+}
+
+.price {
+  background-color: #fff1e7;
+}
+
+del {
+  color: #d6d6d6;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 10px;
+  text-align: left;
+}
