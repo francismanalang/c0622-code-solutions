@@ -6,14 +6,9 @@
 
 function capitalize(word) {
   var newWord = '';
-  for (var i = 0; i < word.length; i++) {
-    if (word[i] === word[0]) {
-      var upperCaseLetter = word[0].toUpperCase();
-      newWord += upperCaseLetter;
-    } else {
-      var lowerCaseLetter = word[i].toLowerCase();
-      newWord += lowerCaseLetter;
-    }
+  newWord += word[0].toUpperCase();
+  for (var i = 1; i < word.length; i++) {
+    newWord += word[i].toLowerCase();
   }
   return newWord;
 }
