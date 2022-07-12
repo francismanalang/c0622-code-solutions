@@ -1,0 +1,44 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.button1 {
+  color: white;
+  background-color: #4a49e9;
+  font-size: 24px;
+  border: none;
+  border-radius: 0.25em;
+  height: 40px;
+  width: 220px;
+  box-shadow: 3px 0 5px 0 rgb(0 0 0 / 75%);
+}
+
+.button2 {
+  color: white;
+  background-color: #ea5c5d;
+  font-size: 24px;
+  border: none;
+  border-radius: 0.25em;
+  height: 40px;
+  width: 100px;
+  box-shadow: 3px 0 5px 0 rgb(0 0 0 / 75%);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.survey-shape {
+  background-color: white;
+  height: 200px;
+  margin: 245px;
+}
