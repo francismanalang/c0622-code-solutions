@@ -11,9 +11,20 @@
   flex-basis: 100%;
 }
 
-.button1 {
+.button1-light {
   color: white;
   background-color: #4a49e9;
+  font-size: 24px;
+  border: none;
+  border-radius: 0.25em;
+  height: 40px;
+  width: 220px;
+  box-shadow: 3px 0 5px 0 rgb(0 0 0 / 75%);
+}
+
+.button1-dark {
+  color: rgb(92 92 92);
+  background-color: #15153e;
   font-size: 24px;
   border: none;
   border-radius: 0.25em;
@@ -41,4 +52,17 @@
   background-color: white;
   height: 200px;
   margin: 245px;
+  border-radius: 0.25em;
+}
+
+.survey {
+  color: black;
+}
+
+.display-none {
+  display: none;
+}
+
+.dark-background {
+  background-color: rgb(47 46 46);
 }
