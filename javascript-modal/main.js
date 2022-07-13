@@ -1,24 +1,20 @@
-var modalToggle = true;
-var surveyToggle = true;
-
 var modalButton = document.querySelector('.button');
 var surveyButton = document.querySelector('.button2');
-var $container = document.querySelector('.container');
 var $survey = document.querySelector('.survey');
+var $body = document.querySelector('.body');
 
 function openModalButton(event) {
-  if (modalToggle) {
-    $container.className = 'container dark-background';
-    $survey.className = 'survey text-align-center';
-    modalButton.className = 'button button1-dark';
+  if (modalButton) {
+    $survey.className = 'survey text-align-center survey-shape';
+    modalButton.className = 'button button1-light';
+    $body.className = 'body dark-background';
   }
 }
 
 function noButton(event) {
-  if (surveyToggle) {
-    $container.className = 'container';
+  if (surveyButton) {
     $survey.className = 'survey text-align-center display-none';
-    modalButton.className = 'button button1-light';
+    $body.className = 'body';
   }
 }
 
