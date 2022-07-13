@@ -17,3 +17,7 @@
 .line {
   border-bottom: 4px solid black;
 }
+
+.wrong-line {
+  border-bottom: 4px solid #f81c04;
+}
