@@ -1,0 +1,23 @@
+.text-align-center {
+  text-align: center;
+}
+
+.padding {
+  padding-top: 150px;
+}
+
+.color {
+  color: #19cd1b;
+}
+
+.wrong-color {
+  color: #f81c04;
+}
+
+.line {
+  border-bottom: 4px solid black;
+}
+
+.wrong-line {
+  border-bottom: 4px solid #f81c04;
+}
