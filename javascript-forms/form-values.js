@@ -8,6 +8,7 @@ function handleForm(event) {
     message: contactForm.elements.message.value
   };
   console.log(valueObject);
+  contactForm.reset();
 }
 
 contactForm.addEventListener('submit', handleForm);
