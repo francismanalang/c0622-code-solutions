@@ -1,0 +1,58 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.background-color {
+  background-color: #fef9f1;
+}
+
+.background-color1 {
+  background-color: #252525;
+}
+
+.height-width {
+  height: 600px;
+  width: 900px;
+}
+
+.light-on {
+  background-color: #faea84;
+  border-radius: 12em;
+  border: none;
+  height: 12em;
+  width: 12em;
+  box-shadow: 0 2px 24px 9px rgb(250 234 132 / 71%);
+}
+
+.light-off {
+  background-color: #3b3c3c;
+  border-radius: 12em;
+  border: none;
+  height: 12em;
+  width: 12em;
+}
+
+.padding {
+  padding-top: 170px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+}
