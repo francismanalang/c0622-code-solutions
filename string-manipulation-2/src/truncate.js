@@ -12,11 +12,13 @@ function truncate(length, string) {
     for (var i = 0; i < length; i++) {
       wordTruncated += string[i];
     }
-  }
-  if (string.length < length) {
+  } else if (string.length < length) {
     for (var j = 0; j < string.length; j++) {
       wordTruncated += string[j];
     }
+  }
+  if (string.length === length) {
+    return string;
   }
   wordTruncated += '...';
   return wordTruncated;

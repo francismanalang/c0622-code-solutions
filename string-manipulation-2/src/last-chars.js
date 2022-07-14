@@ -17,15 +17,19 @@ function lastChars(length, string) {
     for (var i = string.length - 1; i >= string.length - length; i--) {
       newString += string[i];
     }
-  }
-  if (string.length < length) {
+  } else if (string.length < length) {
     for (var j = 0; j < string.length; j++) {
       newString += string[j];
     }
     return newString;
   }
-  for (var k = newString.length - 1; k >= 0; k--) {
-    finalString += newString[k];
+  if (string.length === length) {
+    for (var k = 0; k < string.length; k++) {
+      newString += string[k];
+    }
+  }
+  for (var l = newString.length - 1; l >= 0; l--) {
+    finalString += newString[l];
   }
   return finalString;
 }

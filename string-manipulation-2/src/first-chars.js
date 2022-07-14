@@ -17,7 +17,8 @@ function firstChars(length, string) {
     for (var j = 0; j < string.length; j++) {
       newString += string[j];
     }
-  } else {
+  }
+  if (string.length === length) {
     return string;
   }
   return newString;
