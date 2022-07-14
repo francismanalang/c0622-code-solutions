@@ -16,8 +16,7 @@ function capitalizeWords(string) {
   for (var i = 1; i < string.length; i++) {
     if (string[i - 1] === ' ') {
       capitalizedWords += string[i].toUpperCase();
-    }
-    if (string[i - 1] !== ' ') {
+    } else {
       capitalizedWords += string[i].toLowerCase();
     }
   }

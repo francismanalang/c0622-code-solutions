@@ -13,11 +13,12 @@ function firstChars(length, string) {
     for (var i = 0; i < length; i++) {
       newString += string[i];
     }
-  }
-  if (string.length < length) {
+  } else if (string.length < length) {
     for (var j = 0; j < string.length; j++) {
       newString += string[j];
     }
+  } else {
+    return string;
   }
   return newString;
 }
