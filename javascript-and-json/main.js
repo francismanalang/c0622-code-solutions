@@ -29,3 +29,4 @@ console.log('typeof student:', typeof student);
 
 var studentParse = JSON.parse(student);
 console.log('JSON.parse(student):', studentParse);
+console.log('typeof studentParse:', typeof studentParse);
