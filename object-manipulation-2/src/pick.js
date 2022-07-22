@@ -8,10 +8,8 @@ function pick(source, keys) {
   var newObject = {};
   for (var prop in source) {
     for (var i = 0; i < keys.length; i++) {
-      if (prop === keys[i]) {
+      if (prop === keys[i] && source[prop] !== undefined) {
         newObject[prop] = source[prop];
-      } else if (source[prop] === undefined) {
-        return newObject;
       }
     }
   }

@@ -7,9 +7,7 @@
 
 function defaults(target, source) {
   for (var prop in source) {
-    if (target[prop] === null) {
-      target[prop] = null;
-    } else if (!target[prop]) {
+    if (!target[prop] && target[prop] !== null) {
       target[prop] = source[prop];
     }
   }
