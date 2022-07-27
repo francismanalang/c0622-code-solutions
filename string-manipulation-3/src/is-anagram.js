@@ -6,27 +6,7 @@
 // if not, return false
 
 function isAnagram(firstString, secondString) {
-  var firstStringObj = [];
-  var secondStringObj = [];
-  for (var i = 0; i < secondString.length; i++) {
-    if (secondString[i] !== ' ') {
-      secondStringObj.push(secondString[i]);
-    }
-  }
-  for (var k = 0; k < firstString.length; k++) {
-    if (firstString[k] !== ' ') {
-      firstStringObj.push(firstString[k]);
-    }
-  }
-  // console.log(firstStringObj, secondStringObj);
-  for (var f = 0; f < secondString.length; f++) {
-    if (firstStringObj.includes(secondStringObj[f])) {
-      delete secondStringObj[f];
-    }
-  }
-  if (secondStringObj.length === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  // var stringOne = firstString.replaceAll(' ', '');
+  // var stringTwo = secondString.replaceAll(' ', '');
+  // return stringOne;
 }
