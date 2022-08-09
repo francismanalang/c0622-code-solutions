@@ -1,0 +1,46 @@
+.container {
+  max-width: 850px;
+  margin: auto;
+  border: solid 4px black;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.col-fourth {
+  flex-basis: 25%;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 220px;
+  padding-right: 30px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 425px;
+}
+
+i {
+  padding: 20px;
+  width: 5px;
+  padding-bottom: 40px;
+}
