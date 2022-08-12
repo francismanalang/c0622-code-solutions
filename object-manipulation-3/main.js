@@ -1,5 +1,27 @@
 console.log('Lodash is loaded:', typeof _ !== 'undefined');
 
+// Create an array of objects that contain the player names and hand
+// make a array of card suits and assign it to the variable suits
+// make a array of card values and assign it to the variable values
+// make an empty array and assign it to the variable deck
+// make a for loop that iterates through the suits array
+// make another for loop within the code block that iterates through the values array
+// push an object into the deck array that contains the rank from the values array and a suit from the suits array
+// shuffle the deck using the lodash _.shuffle function and assign it to the variable shuffled deck
+// make an empty array and assign it to the variable playerScores
+// make a for loop that iterates through the players array
+// deal two cards to each player from the deck array and delete the card that was deleted to prevent players from having duplicated cards
+// within the code block, make another for loop that iterates through the hand array within the players object
+// write an if statement that converts the strings "Jack", "Queen", and "King" to have a value of 10
+// write an else if statement that turns the string "Ace" to have a value of 11
+// within the first for loop, push an object in the playerScore array that contains the score (total value of the hand) and the player name
+// make null an assign it to the variable winner
+// make the number 0 and assign it to the variable highestScore
+// make a for loop that iterates through the playerScore array to find the highest score out of all four players
+// write another if statement that checks if the highest score is equal to any of the player score
+// When it finds the match, set the name of the player equal to the variable winner
+// log the variable winner into the console
+
 var players = [
   {
     name: 'Francis',
