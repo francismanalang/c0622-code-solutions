@@ -11,21 +11,19 @@
 function zip(first, second) {
   var output = [];
   var array = [];
+  var length = Infinity;
 
-  for (var i = 0; i < first.length; i++) {
-    if (first.length === second.length) {
-      array.push(first[i]);
-      array.push(second[i]);
-      output.push(array);
-      array = [];
-    } else {
-      if (second[i] !== undefined) {
-        array.push(first[i]);
-        array.push(second[i]);
-        output.push(array);
-        array = [];
-      }
-    }
+  if (first.length < length) {
+    length = first.length;
+  }
+  if (second.length < length) {
+    length = second.length;
+  }
+  for (var i = 0; i < length; i++) {
+    array.push(first[i]);
+    array.push(second[i]);
+    output.push(array);
+    array = [];
   }
   return output;
 }
