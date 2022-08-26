@@ -33,8 +33,8 @@ app.post('/api/grades', (req, res) => {
   const score = Number(req.body.score);
   if (!name || !course || !score) {
     res.status(400).json({ error: 'Invalid or missing. name, course and score are required' });
-  } else if (!Number.isInteger(score) || score <= 0 || score > 100) {
-    res.status(400).json({ error: 'Please provide a valid score between 1-100' });
+  } else if (!Number.isInteger(score) || score < 0 || score > 100) {
+    res.status(400).json({ error: 'Please provide a valid score between 0-100' });
     return;
   }
   const params = [name, course, score];
