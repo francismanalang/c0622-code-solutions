@@ -64,8 +64,8 @@ app.put('/api/grades/:gradeId', (req, res) => {
     res.status(400).json({ error: '"gradeId" must be a positive integer' });
   } else if (!name || !course || !score) {
     res.status(400).json({ error: 'Invalid or missing. name, course and score are required.' });
-  } else if (score <= 0 || score > 100) {
-    res.status(400).json({ error: 'Please provide a score between 1-100' });
+  } else if (score < 0 || score > 100) {
+    res.status(400).json({ error: 'Please provide a score between 0-100' });
   }
   const params = [name, course, score, gradeId];
   const sql = `
@@ -111,7 +111,7 @@ app.delete('/api/grades/:gradeId', (req, res) => {
       if (!deletedGrade) {
         res.status(404).json({ error: `Cannot find grade with gradeId ${gradeId}` });
       } else {
-        res.status(204).json(deletedGrade);
+        res.sendStatus(204);
       }
     })
     .catch(err => {
