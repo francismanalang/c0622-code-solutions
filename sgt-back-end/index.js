@@ -31,7 +31,7 @@ app.post('/api/grades', (req, res) => {
   const name = req.body.name;
   const course = req.body.course;
   const score = Number(req.body.score);
-  if (!name || !course || !score) {
+  if (!name || !course || score === undefined) {
     res.status(400).json({ error: 'Invalid or missing. name, course and score are required' });
   } else if (!Number.isInteger(score) || score < 0 || score > 100) {
     res.status(400).json({ error: 'Please provide a valid score between 0-100' });
@@ -62,7 +62,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
   const gradeId = Number(req.params.gradeId);
   if (!Number.isInteger(gradeId) || gradeId <= 0) {
     res.status(400).json({ error: '"gradeId" must be a positive integer' });
-  } else if (!name || !course || !score) {
+  } else if (!name || !course || score === undefined) {
     res.status(400).json({ error: 'Invalid or missing. name, course and score are required.' });
   } else if (score < 0 || score > 100) {
     res.status(400).json({ error: 'Please provide a score between 0-100' });
