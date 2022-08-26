@@ -62,10 +62,10 @@ app.put('/api/grades/:gradeId', (req, res) => {
   const gradeId = Number(req.params.gradeId);
   if (!Number.isInteger(gradeId) || gradeId <= 0) {
     res.status(400).json({ error: '"gradeId" must be a positive integer' });
-  } else if (!name || !course || score === undefined || !Number.isInteger(score)) {
+  } else if (!name || !course || !Number.isInteger(score)) {
     res.status(400).json({ error: 'Invalid or missing. name, course and score are required.' });
-  } else if (score < 0 || score > 100) {
-    res.status(400).json({ error: 'Please provide a score between 0-100' });
+  } else if (score < 0 || score > 100 || score === undefined) {
+    res.status(400).json({ error: 'Please provide a valid score between 0-100' });
   }
   const params = [name, course, score, gradeId];
   const sql = `
