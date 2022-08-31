@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container-off {
+  width: 5.5rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: rgb(181 181 181);
+}
+
+.toggle-container-on {
+  width: 5.5rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: green;
+  position: relative;
+}
+
+.toggle-container-off:hover {
+  cursor: pointer;
+}
+
+.toggle-container-on:hover {
+  cursor: pointer;
+}
+
+.toggle-switch-off {
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+}
+
+.toggle-switch-on {
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+  position: absolute;
+  right: 0;
+}
+
+.toggle-switch-off:hover {
+  cursor: pointer;
+}
+
+.toggle-switch-on:hover {
+  cursor: pointer;
+}
+
+p {
+  padding-left: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+p:hover {
+  cursor: pointer;
+}
