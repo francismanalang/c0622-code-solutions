@@ -1,0 +1,25 @@
+#root {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+button {
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 6rem;
+  height: 12rem;
+  width: 12rem;
+  font-size: 3em;
+}
+
+.icon {
+  padding-top: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
