@@ -1,0 +1,45 @@
+#root {
+  text-align: center;
+  padding-top: 15rem;
+}
+
+button {
+  border: 4px solid black;
+  height: 5rem;
+  width: 15rem;
+  font-size: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.cold {
+  background-color: #351c75;
+  color: white;
+}
+
+.warm {
+  background-color: #674ea7;
+  color: white;
+}
+
+.hot {
+  background-color: #e06666;
+  color: white;
+}
+
+.hotter {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.hottest {
+  background-color: #fffa05;
+  color: black;
+}
+
+.nuclear {
+  background-color: white;
+  color: black;
+}
