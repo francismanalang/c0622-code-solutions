@@ -23,7 +23,7 @@ class RegistrationForm extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    console.log(this.state);
+    console.log('state:', this.state);
   }
 
   render() {
