@@ -79,7 +79,8 @@ export default class App extends React.Component {
      * TIP: Be sure to SERIALIZE the updates in the body with JSON.stringify()
      * And specify the "Content-Type" header as "application/json"
      */
-    const index = this.state.todos.map(todo => todo.todoId).indexOf(todoId);
+    // const index = this.state.todos.map(todo => todo.todoId).indexOf(todoId);
+    const index = this.state.todos.findIndex(todo => todo.todoId === todoId);
     const toggleIsCompleted = this.state.todos[index].isCompleted;
     // const todoToggle = toggleIsCompleted ? { isCompleted: false } : { isCompleted: true };
     const todoToggle = { isCompleted: !toggleIsCompleted };
