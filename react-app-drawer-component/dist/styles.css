@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://www.nawpic.com/media/2020/dragon-ball-z-nawpic-4.jpg");
+  background-size: cover;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.dark-background {
+  background: rgb(0 0 0 / 75%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.modal {
+  background-color: #ff7601;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+button {
+  display: block;
+  background-color: #ff7601;
+  border: none;
+  width: 15rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffe436;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.menu-button {
+  font-size: 1.5rem;
+}
